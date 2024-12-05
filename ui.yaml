@@ -17,5 +17,6 @@ spec:
       containers:
       - image: gcr.io/heptio-images/ks-guestbook-demo:0.2
         name: guestbook-ui
+        command: ["exit","1"]
         ports:
         - containerPort: 80
